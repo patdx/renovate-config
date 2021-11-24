@@ -1,5 +1,4 @@
 {
-  "extends": ["monorepo:angular","monorepo:angular-cli","monorepo:babel","monorepo:nrwl"],
   "automerge": true,
   "assignees": ["patdx"]
 }
