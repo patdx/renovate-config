@@ -1,4 +1,4 @@
-name: CI
+name: Validate Renovatebot Config
 
 on:
   pull_request:
