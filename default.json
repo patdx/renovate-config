@@ -1,5 +1,12 @@
 {
   "automerge": true,
   "assignees": ["patdx"],
-  "extends": ["config:base"]
+  "extends": ["config:base"],
+  "prHourlyLimit": 1,
+  "packageRules": [
+    {
+      "matchPackagePrefixes": ["@nrwl/"],
+      "automerge": false
+    }
+  ]
 }
