@@ -13,6 +13,6 @@
     "prettier": "2.7.1"
   },
   "dependencies": {
-    "renovate": "32.102.2"
+    "renovate": "32.103.0"
   }
 }
