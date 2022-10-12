@@ -2,6 +2,7 @@
   "automerge": true,
   "assignees": ["patdx"],
   "extends": ["config:base"],
+  "schedule": "every day",
   "prHourlyLimit": 1,
   "packageRules": [
     {
