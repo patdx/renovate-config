@@ -2,12 +2,41 @@
   "automerge": true,
   "assignees": ["patdx"],
   "extends": ["config:base", "group:allNonMajor"],
-  "schedule": "every weekend",
   "prHourlyLimit": 1,
   "packageRules": [
     {
+      "matchPackageNames": ["nx"],
       "matchPackagePrefixes": ["@nrwl/"],
       "automerge": false
+    },
+    {
+      "groupName": "Astro",
+      "matchPackageNames": ["astro"],
+      "matchPackagePrefixes": ["@astrojs/"]
+    },
+    {
+      "groupName": "Solid",
+      "matchPackageNames": ["solid-js"],
+      "matchPackagePrefixes": ["@solidjs/"]
+    },
+    {
+      "groupName": "RJSF",
+      "matchPackageNames": ["solid-js"],
+      "matchPackagePrefixes": ["@rjsf/"]
+    },
+    {
+      "groupName": "Cloudflare",
+      "matchPackageNames": ["wrangler"],
+      "matchPackagePrefixes": ["@miniflare/", "@cloudflare/"]
+    },
+    {
+      "groupName": "Hattip",
+      "matchPackagePrefixes": ["@hattip/"]
+    },
+    {
+      "groupName": "Rakkas",
+      "matchPackageNames": ["rakkasjs"],
+      "matchPackagePrefixes": ["@rakkasjs/"]
     }
   ]
 }
