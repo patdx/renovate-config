@@ -21,7 +21,6 @@
     },
     {
       "groupName": "RJSF",
-      "matchPackageNames": ["solid-js"],
       "matchPackagePrefixes": ["@rjsf/"]
     },
     {
