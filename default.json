@@ -1,7 +1,7 @@
 {
   "automerge": true,
   "assignees": ["patdx"],
-  "extends": ["config:base"],
+  "extends": ["config:base", "group:allNonMajor"],
   "schedule": "every weekend",
   "prHourlyLimit": 1,
   "packageRules": [
