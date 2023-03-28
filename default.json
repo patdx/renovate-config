@@ -37,6 +37,16 @@
       "groupName": "Rakkas",
       "matchPackageNames": ["rakkasjs"],
       "matchPackagePrefixes": ["@rakkasjs/"]
+    },
+    {
+      "groupName": "MobX",
+      "matchPackageNames": [
+        "mobx",
+        "mobx-react",
+        "mobx-react-lite",
+        "mobx-vue",
+        "mobx-vue-lite"
+      ]
     }
   ]
 }
