@@ -10,7 +10,7 @@
   },
   "homepage": "https://github.com/patdx/renovate-config#readme",
   "devDependencies": {
-    "prettier": "2.8.8"
+    "prettier": "3.0.0"
   },
   "dependencies": {
     "renovate": "35.159.7"
