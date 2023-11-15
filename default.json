@@ -3,7 +3,7 @@
   "assignees": ["patdx"],
   "extends": ["config:base", "group:allNonMajor"],
   "prHourlyLimit": 1,
-  "schedule": "every weekend",
+  "schedule": "on the first saturday of the month",
   "packageRules": [
     {
       "matchPackageNames": ["nx"],
