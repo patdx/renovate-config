@@ -1,9 +1,8 @@
 {
   "automerge": true,
   "assignees": ["patdx"],
-  "extends": ["config:base", "group:allNonMajor"],
+  "extends": ["config:base", "group:allNonMajor", "schedule:monthly"],
   "prHourlyLimit": 1,
-  "schedule": "on the first saturday of the month",
   "packageRules": [
     {
       "matchPackageNames": ["nx"],
