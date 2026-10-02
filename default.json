@@ -3,6 +3,7 @@
   "assignees": ["patdx"],
   "extends": ["config:base", "group:allNonMajor", "schedule:monthly"],
   "prHourlyLimit": 1,
+  "minimumReleaseAge": "1 day",
   "packageRules": [
     {
       "matchPackageNames": ["nx"],
